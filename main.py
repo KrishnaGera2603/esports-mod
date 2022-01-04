@@ -98,7 +98,7 @@ async def botinfo(ctx):
     )
     embed.add_field(name='SYSTEM',value=f'<:orangedot:893156901955715113>**Ping -** {round(bot.latency*1000)} ms\n<:orangedot:893156901955715113>**Users -** {len(bot.users)}\n<:orangedot:893156901955715113>**Total Servers -** {len(bot.guilds)}',inline=False)
     embed.add_field(name='DEVELOPER',value='<:mayankpfp:893156858494320690> Mayank#7687',inline=False)
-    embed.add_field(name='IMPORTANT LINKS',value='<:orangedot:893156901955715113>[Invite Bot](https://discord.com/api/oauth2/authorize?client_id=878221988714393660&permissions=268757072&scope=bot)\n<:orangedot:893156901955715113>[Support Server](https://discord.gg/XNvqc7we8x)\n<:orangedot:893156901955715113>[Vote](https://top.gg/bot/878221988714393660/vote)',inline=False)
+    embed.add_field(name='IMPORTANT LINKS',value='<:orangedot:893156901955715113>[Invite Bot](https://discord.com/api/oauth2/authorize?client_id=878221988714393660&permissions=268757072&scope=bot)\n<:orangedot:893156901955715113>[Support Server](https://discord.gg/XNvqc7we8x)\n<:orangedot:893156901955715113>[Vote](https://top.gg/bot/878221988714393660/vote)\n<:orangedot:893156901955715113>[Github](https://github.com/KrishnaGera2603/esports-mod)',inline=False)
     embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/546647317155938304/893530047720349726/1633104534853.png')
     await ctx.send(embed=embed)
 
@@ -755,13 +755,5 @@ async def vote(ctx):
         colour=discord.Colour.orange()
     )
     await ctx.send(embed=embed)
-
-
-
-
-
-
     
-bot.run("ODc4MjIxOTg4NzE0MzkzNjYw.YR-B9g.PJE8fvaQtScF2y94qVEdTo-SPrg")
-
-
+bot.run(${{secret.myToken}})
