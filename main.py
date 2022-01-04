@@ -762,6 +762,6 @@ async def vote(ctx):
 
 
     
-bot.run("ODc4MjIxOTg4NzE0MzkzNjYw.YR-B9g.Wr1oSXeLxiut0pcSrbv93ZpzA58")
+bot.run("ODc4MjIxOTg4NzE0MzkzNjYw.YR-B9g.PJE8fvaQtScF2y94qVEdTo-SPrg")
 
 
